@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Dashboard from '@/components/Dashboard'
-import Sidebar from '@/components/Sidebar'
-import { Transaction, Budget } from '@/types'
+import Dashboard from '../components/Dashboard'
+import Sidebar from '../components/Sidebar'
+import { Transaction, Budget } from '../types'
 
 export default function Home() {
   const [transactions, setTransactions] = useState<Transaction[]>([])
